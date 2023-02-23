@@ -1,0 +1,14 @@
+Task\ label=eugeniinae_rpl16_2
+Task\ ID=2084802
+Tool=RAXMLHPC2_TGB
+created\ on=2020-02-17 08:45:07.0
+JobHandle=NGBW-JOB-RAXMLHPC2_TGB-BDAC7E49E62C4D58B3AF82356147F2D6
+RunNumber=1
+resource=comet
+User\ ID=123447
+User\ Name=thvasc
+email=t.vasconcelos@usp.br
+Output=(all_outputfiles,*,UNKNOWN,UNKNOWN,UNKNOWN)
+ChargeFactor=1.000000
+cores=48
+JOBID=31584625

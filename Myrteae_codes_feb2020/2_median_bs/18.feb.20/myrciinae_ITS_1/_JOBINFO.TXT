@@ -1,0 +1,14 @@
+Task\ label=myrciinae_ndhf_2
+Task\ ID=2084680
+Tool=RAXMLHPC2_TGB
+created\ on=2020-02-17 07:26:52.0
+JobHandle=NGBW-JOB-RAXMLHPC2_TGB-C0D77EFF80D54D0CAD744243913B5447
+RunNumber=1
+resource=comet
+User\ ID=123447
+User\ Name=thvasc
+email=t.vasconcelos@usp.br
+Output=(all_outputfiles,*,UNKNOWN,UNKNOWN,UNKNOWN)
+ChargeFactor=1.000000
+cores=48
+JOBID=31583739

@@ -1,0 +1,14 @@
+Task\ label=all52_plastid_1
+Task\ ID=2082783
+Tool=RAXMLHPC2_TGB
+created\ on=2020-02-14 14:09:35.0
+JobHandle=NGBW-JOB-RAXMLHPC2_TGB-F28247F4D8C3484E8EB7EEDE371671B4
+RunNumber=1
+resource=comet
+User\ ID=123447
+User\ Name=thvasc
+email=t.vasconcelos@usp.br
+Output=(all_outputfiles,*,UNKNOWN,UNKNOWN,UNKNOWN)
+ChargeFactor=1.000000
+cores=48
+JOBID=31547242

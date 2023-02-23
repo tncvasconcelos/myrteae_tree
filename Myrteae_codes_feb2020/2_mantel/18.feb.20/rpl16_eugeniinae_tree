@@ -1,0 +1,425 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=323;
+	taxlabels
+	'Algrizea.macrochlamys_Giulietti.1648'
+	'Algrizea.minor_Faria.4157'
+	'Archirhodomyrtus.turbinata_Soewarto.11'
+	'Blepharocalyx.eggersii_Vasconcelos.458'
+	'Blepharocalyx.salicifolius_Lucas.78'
+	'Calycolpus.goetheanus_Vasconcelos.332'
+	'Calycolpus.sessiliflorus_Bringel.743'
+	'Calycorectes.bergii_Giaretta.1587'
+	'Calyptranthes.brasiliensis_Lucas.930'
+	'Calyptranthes.concinna_Lucas.74'
+	'Calyptranthes.grandifolia_Lucas.122'
+	'Calyptranthes.lanceolata_Lucas.84'
+	'Calyptranthes.pulchella_Zappi.2496'
+	'Calyptranthes.restingae_Lucas.990'
+	'Calyptrogenia.biflora_Vasconcelos.565'
+	'Calyptrogenia.cuspidata_Vasconcelos.593'
+	'Calyptrogenia.grandiflora_Vasconcelos.588'
+	'Campomanesia.adamantium_Vasconcelos.474'
+	'Campomanesia.dichotoma_Ibrahim.123'
+	'Campomanesia.guaviroba_Faria.3076'
+	'Campomanesia.guazumifolia_Faria.3054'
+	'Campomanesia.ilhoensis_Ibrahim.122'
+	'Campomanesia.velutina_Vasconcelos.507'
+	'Campomanesia.xanthocarpa_Urdampilleta.J.362'
+	'Chamguava.schippii_SantamariaAguilar.9833'
+	'Curitiba.prismatica_Lima.551'
+	'Eucalyptus.perriniana_Lucas.283'
+	'Eugenia.abunan_PereiraSilva.16487'
+	'Eugenia.acutata_Vasconcelos.506'
+	'Eugenia.aff.adenocalyx_Giaretta.1441'
+	'Eugenia.altissima_Faria.2582'
+	'Eugenia.anastomosans_Holst.9383'
+	'Eugenia.angustissima_Vasconcelos.405'
+	'Eugenia.arenosa_Mazine.1043'
+	'Eugenia.astringens_Mazine.782'
+	'Eugenia.axillaris_Hamilton.553'
+	'Eugenia.azuruensis_Faria.2642'
+	'Eugenia.azuruensis_Faria.2646'
+	'Eugenia.bacopari_Mazine.967'
+	'Eugenia.bahiensis_Faria.4229'
+	'Eugenia.biflora_Mazine.1075'
+	'Eugenia.bimarginata_Mazine.469'
+	'Eugenia.binata_Colletta.1208'
+	'Eugenia.bojeri_Page.32'
+	'Eugenia.brasiliensis_Lucas.126'
+	'Eugenia.brevistyla_Giaretta.1493'
+	'Eugenia.brevistyla_Mazine.993'
+	'Eugenia.brongniartiana_Pillon.176'
+	'Eugenia.bullata_Vasconcelos.608'
+	'Eugenia.bunchosiifolia_Faria.2513'
+	'Eugenia.bunchosiifolia_Vasconcelos.466'
+	'Eugenia.caloneura_Lucas.1160'
+	'Eugenia.cerasiflora_Vasconcelos.419'
+	'Eugenia.coffeifolia_Holst.9516'
+	'Eugenia.costata_Giaretta.1514'
+	'Eugenia.crassa_Giacomin.1860'
+	'Eugenia.cristaensis_PORosa.1399'
+	'Eugenia.densiracemosa_Mazine.1072'
+	'Eugenia.dictyophylla_Clase.8180'
+	'Eugenia.domingensis_Lucas.1127'
+	'Eugenia.dysenterica_Mazine.466'
+	'Eugenia.egensis_Vasconcelos.319'
+	'Eugenia.ellipsoidea_Lucas.879'
+	'Eugenia.erythrophylla_Maurin.1801'
+	'Eugenia.excelsa_Lucas.125'
+	'Eugenia.excoriata_Faria.2539'
+	'Eugenia.excoriata_Faria.2612'
+	'Eugenia.expansa_Bunger.634'
+	'Eugenia.expansa_Mazine.950'
+	'Eugenia.fasciculiflora_Simon.2032'
+	'Eugenia.feijoi_Simon.971'
+	'Eugenia.fissurata_Giaretta.1639'
+	'Eugenia.flavescens_Zappi.415'
+	'Eugenia.florida_Mazine.965'
+	'Eugenia.foetida_Holst.8865'
+	'Eugenia.foetida_Lucas.1115'
+	'Eugenia.glandulosa_Faria.37'
+	'Eugenia.goiapabana_Bunger.Sn'
+	'Eugenia.guanabarina_Giaretta.1629'
+	'Eugenia.hamiltonii_Mazine.1033'
+	'Eugenia.handroi_Faria.3100'
+	'Eugenia.handroi_Mazine.951'
+	'Eugenia.hiraeifolia_MCSouza.1142'
+	'Eugenia.hirta_Faria.4227'
+	'Eugenia.inversa_Faria.4230'
+	'Eugenia.involucrata_Bunger.551'
+	'Eugenia.involucrata_Mazine.1018'
+	'Eugenia.involucrata_Vasconcelos.256'
+	'Eugenia.itajurensis_Faria.2399'
+	'Eugenia.itajurensis_Faria.6723'
+	'Eugenia.joseramosii_Giaretta.1651'
+	'Eugenia.kerianthera_Giaretta.1517'
+	'Eugenia.klotzschiana_Faria.2006'
+	'Eugenia.laevis_Lucas.1113'
+	'Eugenia.lagoensis_Fraga.2436'
+	'Eugenia.langsdorffii_Faria.2000'
+	'Eugenia.langsdorffii_Faria.918'
+	'Eugenia.laruotteana_Faria.3139'
+	'Eugenia.laruotteana_Faria.6433'
+	'Eugenia.leitonii_Faria.6308'
+	'Eugenia.lindahlii_Clase.7839'
+	'Eugenia.longipetiolata_Bunger.626'
+	'Eugenia.longiracemosa_Vasconcelos.310'
+	'Eugenia.longohypanthiata_Giaretta.1500'
+	'Eugenia.luschnathiana_Faria.3140'
+	'Eugenia.macrobracteolata_Faria.3050'
+	'Eugenia.magnibracteolata_Bunger.627'
+	'Eugenia.magnisepala_Moraes.600'
+	'Eugenia.malacantha_Faria.3037'
+	'Eugenia.malacantha_Faria.3043'
+	'Eugenia.monticola_Lucas.1117'
+	'Eugenia.monticola_Vasconcelos.566'
+	'Eugenia.myrcianthes_Faria.2850'
+	'Eugenia.natalitia_Maurin.1796'
+	'Eugenia.neofasciculata_Page.105'
+	'Eugenia.neoglomerata_Mazine.461'
+	'Eugenia.neograndifolia_Holst.9435'
+	'Eugenia.neoriedeliana_Giaretta.1489'
+	'Eugenia.nutans_Lucas.281'
+	'Eugenia.orbiculata_Page.104'
+	'Eugenia.paludosa_Vasconcelos.646'
+	'Eugenia.paracatuana_Faria.2928'
+	'Eugenia.paracatuana_Silva.64'
+	'Eugenia.patens_Lucas.104'
+	'Eugenia.patrisii_Holst.9514'
+	'Eugenia.patrisii_Staggemeier.834'
+	'Eugenia.patrisii_Vasconcelos.327'
+	'Eugenia.percincta_Simon.1158'
+	'Eugenia.petaloidea_Amorim.1765'
+	'Eugenia.pisiformis_Lucas.232'
+	'Eugenia.pisonis_Giaretta.1419'
+	'Eugenia.pistaciifolia_Faria.1782'
+	'Eugenia.platyphylla_Lucas.1188'
+	'Eugenia.platysema_Mazine.3001'
+	'Eugenia.pluriflora_Mazine.961'
+	'Eugenia.pohliana_Faria.1888'
+	'Eugenia.pohliana_Landim.1674'
+	'Eugenia.pollicina_Page.106'
+	'Eugenia.prasina_Mazine.959'
+	'Eugenia.puberula_Bunger.629'
+	'Eugenia.punicifolia_Mazine.1065'
+	'Eugenia.pyrifera_Faria.3870'
+	'Eugenia.pyriformis_Faria.1011'
+	'Eugenia.pyriformis_Faria.3063'
+	'Eugenia.pyriformis_Faria.3086'
+	'Eugenia.pyriformis_Faria.3166'
+	'Eugenia.pyriformis_Mazine.1028'
+	'Eugenia.rara_Giaretta.1646'
+	'Eugenia.regia_Bunger.578'
+	'Eugenia.reinwardtiana_Holst.8870'
+	'Eugenia.reinwardtiana_Zappi.Sn'
+	'Eugenia.rhombea_Holst.8864'
+	'Eugenia.roseopetiolata_Vasconcelos.Sn'
+	'Eugenia.rotula_Faria.4190'
+	'Eugenia.ruschiana_Bunger.618'
+	'Eugenia.selloi_Bunger.566'
+	'Eugenia.sellowiana_Faria.1744'
+	'Eugenia.sellowiana_Faria.2827'
+	'Eugenia.sellowiana_Faria.3088'
+	'Eugenia.sellowiana_Faria.907'
+	'Eugenia.sp_Faria.2287'
+	'Eugenia.sp_Faria.2591'
+	'Eugenia.sp_Faria.2592'
+	'Eugenia.sp_Faria.2622'
+	'Eugenia.sp_Faria.2624'
+	'Eugenia.sp_Faria.2732'
+	'Eugenia.sp_Faria.3153'
+	'Eugenia.sp_GCosta.470'
+	'Eugenia.speciosa_Bunger.585'
+	'Eugenia.speciosa_Mota.2477'
+	'Eugenia.sphenophylla_Lucas.257'
+	'Eugenia.splendens_Faria.1929'
+	'Eugenia.splendens_Faria.4196'
+	'Eugenia.splendens_Faria.6793'
+	'Eugenia.spruceana_Holst.9465'
+	'Eugenia.stictopetala_Mazine.1077'
+	'Eugenia.stigmatosa_Sampaio.ESA85684'
+	'Eugenia.stipitata_Holst.8872'
+	'Eugenia.stipitata_MCSouza.Sn'
+	'Eugenia.stipitata_Stadnik.428'
+	'Eugenia.subavenia_Mazine.805'
+	'Eugenia.subterminalis_Mazine.974'
+	'Eugenia.supraaxillaris_Faria.3033'
+	'Eugenia.supraaxillaris_Mazine.994'
+	'Eugenia.ternatifolia_Faria.2861'
+	'Eugenia.tetramera_Holst.9422'
+	'Eugenia.tinifolia_Page.25'
+	'Eugenia.umbrosa_Giaretta.1498'
+	'Eugenia.umbrosa_Mazine.1085'
+	'Eugenia.umtamvunensis_Maurin.1794'
+	'Eugenia.unana_Faria.4221'
+	'Eugenia.uniflora_Lucas.207'
+	'Eugenia.vattimoana_Giaretta.1465'
+	'Eugenia.vaughanii_Page.69'
+	'Eugenia.verticillata_Duarte.ESA85678'
+	'Eugenia.wentii_Holst.9421'
+	'Eugenia.woodii_Maurin.MvdB26'
+	'Eugenia.zeyheri_Maurin.1800'
+	'Eugenia.zuccarinii_Brandao.159'
+	'Eugenia.zuluensis_Abbott.9188'
+	'Feijoa.sellowiana_Lucas.205'
+	'Gossia.clusioides_Soewarto.14'
+	'Hottea.neibensis_Vasconcelos.590'
+	'Leptospermum.scoparium_Lucas.284'
+	'Luma.apiculata_Lucas.208'
+	'Marlierea.suaveolens_Lucas.85'
+	'Melaleuca.comboynensis_Lucas.206'
+	'Metrosideros.perforata_Lucas.209'
+	'Mitranthes.glabra_Lucas.1224'
+	'Myrceugenia.alpigena_Lucas.167'
+	'Myrceugenia.bananalensis_Faria.4049'
+	'Myrceugenia.myrcioides_Lucas.82'
+	'Myrcia.aff.maximiliana_Santos.750'
+	'Myrcia.aff.unana_Amorim.2024'
+	'Myrcia.amazonica_Lucas.130'
+	'Myrcia.anacardiifolia_Nadruz.999'
+	'Myrcia.anceps_Lucas.236'
+	'Myrcia.antonia_Lima.440'
+	'Myrcia.barituensis_Serrano.5327'
+	'Myrcia.blanchetiana_Lima.436'
+	'Myrcia.brasiliensis_Lucas.62'
+	'Myrcia.carvalhoi_Amorim.2026'
+	'Myrcia.cerqueiria_Amorim.2028'
+	'Myrcia.citrifolia_Pollard.1193'
+	'Myrcia.crocea_Amorim.1942'
+	'Myrcia.decorticans_Brazil_SE_Staggemeier.799'
+	'Myrcia.eriocalyx_Faria.1446'
+	'Myrcia.eugeniopsoides_Lucas.61'
+	'Myrcia.excoriata_Matsumoto.825'
+	'Myrcia.fenzliana_Vasconcelos.592'
+	'Myrcia.ferruginea_Lucas.1235'
+	'Myrcia.ferruginosa_Santos.689'
+	'Myrcia.flagellaris_Lucas.83'
+	'Myrcia.grandifolia_Faria.2073'
+	'Myrcia.guianensis_Harley.50707'
+	'Myrcia.guianensis_Staggemeier.845'
+	'Myrcia.hebepetala_Lucas.64'
+	'Myrcia.hexasticha_Lucas.194'
+	'Myrcia.ilheosensis_Amorim.2037'
+	'Myrcia.insigniflora_Matsumoto.799'
+	'Myrcia.isaiana_Lucas.60'
+	'Myrcia.litoralis_Lima.510'
+	'Myrcia.montana_Lucas.261'
+	'Myrcia.multiflora_Staggemeier.422'
+	'Myrcia.multipunctata_Matsumoto.752'
+	'Myrcia.myrtilliflolia_Lima.381'
+	'Myrcia.myrtilliflolia_Lima.501'
+	'Myrcia.neoglabra_Staggemeier.935'
+	'Myrcia.neoobscura_Matsumoto.836'
+	'Myrcia.neoregeliana_Matsumoto.814'
+	'Myrcia.neotomentosa_Matsumoto.798'
+	'Myrcia.obversa_Matsumoto.820'
+	'Myrcia.palustris_Brotto.1546'
+	'Myrcia.pendulla_Lucas.1206'
+	'Myrcia.pinifolia_Vasconcelos.505'
+	'Myrcia.plusiantha_Santos.712'
+	'Myrcia.polyantha_Staggemeier.797'
+	'Myrcia.pubescens_IBGE.Sn'
+	'Myrcia.pubipetala_Lucas.86'
+	'Myrcia.pulvinata_Amorim.1901'
+	'Myrcia.racemosa_Lima.445'
+	'Myrcia.racemosa_Lucas.63'
+	'Myrcia.racemosa_Staggemeier.751'
+	'Myrcia.ramuliflora_Lima.412'
+	'Myrcia.reticulata_Santos.803'
+	'Myrcia.rosangelae_Amorim.1499'
+	'Myrcia.rupta_Vasconcelos.311'
+	'Myrcia.selloi_Lucas.110'
+	'Myrcia.serrana_Amorim.2013'
+	'Myrcia.sp_Faria.972'
+	'Myrcia.sp_Lima.406'
+	'Myrcia.sp_Vasconcelos.307'
+	'Myrcia.sp_Vasconcelos.440'
+	'Myrcia.spathulifolia_Faria.4214'
+	'Myrcia.spectabilis_Lucas.75'
+	'Myrcia.splendens_Lucas.73'
+	'Myrcia.splendens_Vasconcelos.587'
+	'Myrcia.springiana_Amorim.1985'
+	'Myrcia.subcordata_Santos.586'
+	'Myrcia.subsericea_Santos.797'
+	'Myrcia.sucrei_Staggemeier.916'
+	'Myrcia.tijucensis_Zappi.305'
+	'Myrcia.tomentosa_SoaresSilva.752'
+	'Myrcia.umbraticola_Souza.Sn.43175'
+	'Myrcianthes.fragrans_Hamilton.552'
+	'Myrcianthes.pungens_Faria.2759'
+	'Myrciaria.cuspidata_Vasconcelos.495'
+	'Myrciaria.floribunda_Vasconcelos.380'
+	'Myrciaria.glazioviana_CoelhoJ.288'
+	'Myrciaria.glomerata_Vasconcelos.413'
+	'Myrciaria.sp_34855'
+	'Myrciaria.vexator_Vasconcelos.709'
+	'Myrrhinium.atropurpureum_Costa.594'
+	'Myrtastrum.rufopunctatum_Soewarto.10'
+	'Myrteola.nummularia_RBGE.19961096'
+	'Myrtus.communis_Lucas.211'
+	'Neomitranthes.glomerata_LabFenoSn3.G2.46397'
+	'Pimenta.berciliae_Vasconcelos.576'
+	'Pimenta.pseudocaryophyllus_Lucas.161'
+	'Pimenta.yumana_Vasconcelos.584'
+	'Plinia.clausa_Stadnik.601'
+	'Plinia.complanata_Matsumoto.831'
+	'Plinia.cordifolia_Mazine.957'
+	'Plinia.espinhacensis_Faria.6379'
+	'Plinia.espiritosantensis_Souza.sn'
+	'Plinia.longiacuminata_Borges.314'
+	'Plinia.nana_Mazine.662'
+	'Psidium.acranthum_Vasconcelos.578'
+	'Psidium.bergianum_Faria.6839'
+	'Psidium.cattleyanum_Lucas.213'
+	'Psidium.grandifolium_Faria.6689'
+	'Psidium.macahense_Faria.2519'
+	'Psidium.macahense_Vasconcelos.465'
+	'Psidium.myrtoides_Faria.6838'
+	'Psidium.robustum_Faria.6370'
+	'Rhodamnia.cinerea_Vasconcelos.672'
+	'Rhodomyrtus.tomentosa_Vasconcelos.678'
+	'Siphoneugena.densiflora_Faria.4152'
+	'Siphoneugena.densiflora_Mazine.1050'
+	'Siphoneugena.guilfoyleiana_Lucas.70'
+	'Siphoneugena.reitzii_Staggemeier.1000'
+	'Ugni.candollei_Vasconcelos.Sn'
+	'Ugni.selkirkii_Gardner.31'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (((((((((('Myrcia.excoriata_Matsumoto.825':1.0E-6,('Plinia.nana_Mazine.662':0.015853,'Plinia.espiritosantensis_Souza.sn':1.0E-6)[&label=16]:0.004561)[&label=9]:1.0E-6,'Myrcia.splendens_Vasconcelos.587':0.10425)[&label=7]:0.009712,(('Myrcia.ferruginea_Lucas.1235':0.009979,(('Myrcia.insigniflora_Matsumoto.799':1.0E-6,'Myrcia.plusiantha_Santos.712':1.0E-6)[&label=57]:1.0E-6,'Myrcia.subcordata_Santos.586':0.004311)[&label=65]:0.004187)[&label=51]:0.008412,(((('Myrcia.pubipetala_Lucas.86':1.0E-6,'Myrcia.antonia_Lima.440':1.0E-6)[&label=81]:0.009733,(((('Myrcia.isaiana_Lucas.60':0.027863,('Myrcia.sp_Vasconcelos.307':0.012139,('Myrcia.splendens_Lucas.73':0.004365,'Myrcia.anceps_Lucas.236':1.0E-6)[&label=84]:0.004306)[&label=58]:0.004012)[&label=75]:0.016368,((('Marlierea.suaveolens_Lucas.85':0.004071,('Myrcia.sucrei_Staggemeier.916':1.0E-6,('Myrcia.neoglabra_Staggemeier.935':0.004712,('Myrcia.racemosa_Lima.445':0.005585,('Myrcia.neotomentosa_Matsumoto.798':1.0E-6,'Myrcia.neoobscura_Matsumoto.836':1.0E-6)[&label=76]:1.0E-6)[&label=66]:0.025559)[&label=25]:1.0E-6)[&label=7]:1.0E-6)[&label=2]:1.0E-6,((('Myrcia.hexasticha_Lucas.194':1.0E-6,'Myrcia.obversa_Matsumoto.820':1.0E-6)[&label=99]:0.008634,'Myrcia.amazonica_Lucas.130':1.0E-6)[&label=93]:0.014201,'Myrcia.neoregeliana_Matsumoto.814':1.0E-6)[&label=18]:0.0043)[&label=37]:0.012865,(((((((('Curitiba.prismatica_Lima.551':0.023971,((('Campomanesia.ilhoensis_Ibrahim.122':1.0E-6,'Campomanesia.guazumifolia_Faria.3054':0.005112)[&label=79]:0.004404,(('Campomanesia.xanthocarpa_Urdampilleta.J.362':0.00452,'Campomanesia.guaviroba_Faria.3076':1.0E-6)[&label=98]:0.018146,('Campomanesia.dichotoma_Ibrahim.123':1.0E-6,('Campomanesia.velutina_Vasconcelos.507':0.020588,'Campomanesia.adamantium_Vasconcelos.474':0.005934)[&label=42]:1.0E-6)[&label=46]:1.0E-6)[&label=64]:0.008384)[&label=83]:0.018684,'Feijoa.sellowiana_Lucas.205':0.010258)[&label=34]:0.001989)[&label=9]:0.007423,((('Psidium.grandifolium_Faria.6689':0.005048,('Calyptrogenia.biflora_Vasconcelos.565':1.0E-6,'Psidium.acranthum_Vasconcelos.578':0.011647)[&label=61]:0.003793)[&label=88]:0.01192,((('Calycolpus.sessiliflorus_Bringel.743':1.0E-6,'Psidium.myrtoides_Faria.6838':0.003746)[&label=70]:0.006215,'Psidium.macahense_Vasconcelos.465':1.0E-6)[&label=16]:1.0E-6,(('Psidium.robustum_Faria.6370':0.005149,'Psidium.bergianum_Faria.6839':1.0E-6)[&label=74]:0.005228,('Psidium.cattleyanum_Lucas.213':0.01532,'Psidium.macahense_Faria.2519':1.0E-6)[&label=3]:1.0E-6)[&label=22]:1.0E-6)[&label=53]:1.0E-6)[&label=53]:0.003833,'Myrrhinium.atropurpureum_Costa.594':0.021032)[&label=79]:0.027197)[&label=1]:1.0E-6,'Myrteola.nummularia_RBGE.19961096':0.032031)[&label=1]:1.0E-6,('Leptospermum.scoparium_Lucas.284':0.182165,'Melaleuca.comboynensis_Lucas.206':0.104823)[&label=52]:0.028207)[&label=0]:1.0E-6,((((((('Myrceugenia.alpigena_Lucas.167':1.0E-6,('Myrceugenia.myrcioides_Lucas.82':0.004289,'Myrceugenia.bananalensis_Faria.4049':0.071542)[&label=5]:1.0E-6)[&label=1]:0.022233,'Chamguava.schippii_SantamariaAguilar.9833':0.011723)[&label=0]:0.004293,'Myrtus.communis_Lucas.211':0.032462)[&label=0]:1.0E-6,'Luma.apiculata_Lucas.208':0.014204)[&label=0]:1.0E-6,('Ugni.candollei_Vasconcelos.Sn':0.014946,'Ugni.selkirkii_Gardner.31':0.02102)[&label=84]:0.018639)[&label=0]:0.004229,'Calycolpus.goetheanus_Vasconcelos.332':0.045944)[&label=0]:1.0E-6,(('Eugenia.neofasciculata_Page.105':0.005914,('Eugenia.flavescens_Zappi.415':0.0094,(('Eugenia.egensis_Vasconcelos.319':0.064615,'Eugenia.anastomosans_Holst.9383':0.010955)[&label=34]:0.00284,'Eugenia.aff.adenocalyx_Giaretta.1441':0.016744)[&label=12]:1.0E-6)[&label=13]:0.009189)[&label=3]:1.0E-6,(((('Eugenia.brongniartiana_Pillon.176':0.004647,'Eugenia.hirta_Faria.4227':0.009263)[&label=34]:0.00439,('Eugenia.bullata_Vasconcelos.608':1.0E-6,'Eugenia.paludosa_Vasconcelos.646':1.0E-6)[&label=79]:0.006288)[&label=18]:0.006404,((('Eugenia.uniflora_Lucas.207':0.017882,('Eugenia.brasiliensis_Lucas.126':0.032854,(('Eugenia.supraaxillaris_Mazine.994':0.004601,'Eugenia.pohliana_Faria.1888':0.013479)[&label=23]:1.0E-6,((('Eugenia.stipitata_Stadnik.428':1.0E-6,('Eugenia.stipitata_Holst.8872':1.0E-6,'Eugenia.stipitata_MCSouza.Sn':1.0E-6)[&label=67]:1.0E-6)[&label=99]:0.017688,'Eugenia.supraaxillaris_Faria.3033':0.004487)[&label=23]:1.0E-6,(('Eugenia.sp_Faria.2591':1.0E-6,'Eugenia.sp_Faria.2592':1.0E-6)[&label=80]:1.0E-6,(((('Eugenia.pyriformis_Mazine.1028':0.013918,('Eugenia.sellowiana_Faria.2827':1.0E-6,'Eugenia.sellowiana_Faria.907':1.0E-6)[&label=69]:1.0E-6)[&label=17]:1.0E-6,(('Eugenia.pyriformis_Faria.3166':1.0E-6,('Eugenia.pyriformis_Faria.1011':1.0E-6,(('Eugenia.pyriformis_Faria.3063':1.0E-6,'Eugenia.ternatifolia_Faria.2861':1.0E-6)[&label=16]:1.0E-6,('Eugenia.sellowiana_Faria.3088':1.0E-6,'Eugenia.sp_Faria.3153':1.0E-6)[&label=21]:1.0E-6)[&label=24]:1.0E-6)[&label=20]:1.0E-6)[&label=21]:1.0E-6,'Eugenia.pyriformis_Faria.3086':0.008904)[&label=21]:0.004377)[&label=49]:0.004312,('Eugenia.sp_GCosta.470':0.008757,('Eugenia.pohliana_Landim.1674':1.0E-6,('Eugenia.sp_Faria.2622':1.0E-6,(('Eugenia.excoriata_Faria.2612':0.004435,'Eugenia.excoriata_Faria.2539':0.004437)[&label=11]:1.0E-6,'Eugenia.sp_Faria.2624':1.0E-6)[&label=10]:1.0E-6)[&label=2]:1.0E-6)[&label=14]:1.0E-6)[&label=12]:1.0E-6)[&label=4]:1.0E-6,('Eugenia.sp_Faria.2732':1.0E-6,((('Eugenia.itajurensis_Faria.2399':0.004487,'Eugenia.sellowiana_Faria.1744':0.004487)[&label=23]:1.0E-6,('Eugenia.langsdorffii_Faria.918':1.0E-6,'Eugenia.itajurensis_Faria.6723':1.0E-6)[&label=25]:1.0E-6)[&label=7]:1.0E-6,'Eugenia.langsdorffii_Faria.2000':1.0E-6)[&label=20]:1.0E-6)[&label=23]:0.004361)[&label=46]:0.004205)[&label=57]:0.004206)[&label=23]:1.0E-6)[&label=85]:0.008381)[&label=25]:1.0E-6)[&label=91]:0.012558,'Eugenia.tinifolia_Page.25':0.008449)[&label=5]:1.0E-6,((('Eugenia.prasina_Mazine.959':1.0E-6,((((('Eugenia.pollicina_Page.106':1.0E-6,'Eugenia.orbiculata_Page.104':0.014698)[&label=88]:0.030645,(((((('Eugenia.handroi_Faria.3100':1.0E-6,('Eugenia.myrcianthes_Faria.2850':0.014281,('Eugenia.handroi_Mazine.951':1.0E-6,'Eugenia.hamiltonii_Mazine.1033':1.0E-6)[&label=73]:0.013684)[&label=36]:1.0E-6)[&label=36]:0.004427,('Eugenia.coffeifolia_Holst.9516':1.0E-6,(('Eugenia.lindahlii_Clase.7839':0.004609,'Eugenia.pistaciifolia_Faria.1782':0.009743)[&label=16]:0.004494,('Eugenia.excelsa_Lucas.125':1.0E-6,'Eugenia.platyphylla_Lucas.1188':0.013758)[&label=41]:0.00449)[&label=11]:1.0E-6)[&label=16]:0.012132)[&label=0]:1.0E-6,'Eugenia.splendens_Faria.6793':0.009722)[&label=0]:1.0E-6,('Eugenia.splendens_Faria.1929':0.009087,'Eugenia.splendens_Faria.4196':0.004452)[&label=82]:0.013607)[&label=0]:1.0E-6,('Eugenia.reinwardtiana_Holst.8870':1.0E-6,'Eugenia.reinwardtiana_Zappi.Sn':1.0E-6)[&label=82]:0.009121)[&label=0]:0.01277,'Eugenia.stictopetala_Mazine.1077':0.010719)[&label=0]:0.009149)[&label=0]:0.033415,'Eugenia.pisiformis_Lucas.232':0.003388)[&label=0]:1.0E-6,'Eugenia.nutans_Lucas.281':0.014239)[&label=0]:0.012737,'Eugenia.verticillata_Duarte.ESA85678':0.004409)[&label=0]:0.011019)[&label=0]:0.003778,'Eugenia.densiracemosa_Mazine.1072':0.021986)[&label=0]:1.0E-6,(((((((((('Eugenia.bahiensis_Faria.4229':0.023335,'Eugenia.rara_Giaretta.1646':1.0E-6)[&label=29]:0.00536,('Eugenia.platysema_Mazine.3001':0.009302,'Eugenia.sphenophylla_Lucas.257':0.012499)[&label=3]:0.012417)[&label=0]:1.0E-6,'Eugenia.bojeri_Page.32':0.013296)[&label=0]:0.026844,'Eugenia.bimarginata_Mazine.469':0.008499)[&label=0]:0.021193,(('Eugenia.umbrosa_Mazine.1085':1.0E-6,'Eugenia.ellipsoidea_Lucas.879':0.010068)[&label=22]:1.0E-6,'Eugenia.umbrosa_Giaretta.1498':1.0E-6)[&label=48]:0.01006)[&label=0]:0.006728,((('Eugenia.kerianthera_Giaretta.1517':0.019245,('Eugenia.fissurata_Giaretta.1639':0.008917,'Eugenia.crassa_Giacomin.1860':1.0E-6)[&label=2]:1.0E-6)[&label=0]:1.0E-6,(((('Eugenia.longipetiolata_Bunger.626':0.013354,('Eugenia.speciosa_Bunger.585':1.0E-6,'Eugenia.speciosa_Mota.2477':0.013558)[&label=81]:0.008896)[&label=49]:1.0E-6,('Eugenia.stigmatosa_Sampaio.ESA85684':0.027513,'Eugenia.wentii_Holst.9421':0.011082)[&label=72]:1.0E-6)[&label=74]:1.0E-6,('Eugenia.bunchosiifolia_Vasconcelos.466':0.015657,'Eugenia.bunchosiifolia_Faria.2513':1.0E-6)[&label=100]:0.019687)[&label=75]:0.011681,((((((((('Eugenia.monticola_Vasconcelos.566':0.016081,('Eugenia.monticola_Lucas.1117':1.0E-6,'Eugenia.foetida_Lucas.1115':1.0E-6)[&label=47]:1.0E-6)[&label=54]:0.005325,'Eugenia.foetida_Holst.8865':1.0E-6)[&label=48]:1.0E-6,'Eugenia.axillaris_Hamilton.553':0.00483)[&label=86]:0.014414,('Eugenia.hiraeifolia_MCSouza.1142':0.009819,'Eugenia.laevis_Lucas.1113':0.009282)[&label=92]:0.004671)[&label=68]:0.009372,('Eugenia.spruceana_Holst.9465':0.032581,'Eugenia.rhombea_Holst.8864':0.024332)[&label=40]:0.00502)[&label=0]:1.0E-6,'Eugenia.dictyophylla_Clase.8180':0.018472)[&label=0]:1.0E-6,(('Eugenia.domingensis_Lucas.1127':0.029961,(('Eugenia.longiracemosa_Vasconcelos.310':0.006065,('Eugenia.angustissima_Vasconcelos.405':1.0E-6,'Eugenia.cristaensis_PORosa.1399':1.0E-6)[&label=75]:0.015556)[&label=71]:0.024468,('Eugenia.paracatuana_Faria.2928':1.0E-6,'Eugenia.paracatuana_Silva.64':1.0E-6)[&label=40]:1.0E-6)[&label=2]:1.0E-6)[&label=2]:0.004222,'Eugenia.binata_Colletta.1208':0.004718)[&label=6]:0.012757)[&label=0]:1.0E-6,'Eugenia.goiapabana_Bunger.Sn':0.019234)[&label=0]:0.004579,'Eugenia.subavenia_Mazine.805':0.014694)[&label=0]:1.0E-6)[&label=0]:8.54E-4)[&label=0]:0.01017,'Eugenia.neoglomerata_Mazine.461':1.0E-6)[&label=0]:0.016818)[&label=0]:0.013743,(('Eugenia.unana_Faria.4221':0.004547,'Eugenia.astringens_Mazine.782':1.0E-6)[&label=8]:1.0E-6,'Eugenia.joseramosii_Giaretta.1651':0.018295)[&label=11]:0.00793)[&label=0]:1.0E-6,((('Eugenia.altissima_Faria.2582':0.00833,((('Eugenia.tetramera_Holst.9422':1.0E-6,('Eugenia.malacantha_Faria.3037':1.0E-6,('Eugenia.laruotteana_Faria.6433':1.0E-6,('Eugenia.leitonii_Faria.6308':1.0E-6,'Eugenia.malacantha_Faria.3043':1.0E-6)[&label=89]:1.0E-6)[&label=88]:1.0E-6)[&label=85]:1.0E-6)[&label=21]:1.0E-6,((('Eugenia.klotzschiana_Faria.2006':1.0E-6,'Eugenia.sp_Faria.2287':1.0E-6)[&label=15]:1.0E-6,'Eugenia.laruotteana_Faria.3139':1.0E-6)[&label=13]:1.0E-6,'Eugenia.pyrifera_Faria.3870':1.0E-6)[&label=49]:1.0E-6)[&label=13]:1.0E-6,('Eugenia.azuruensis_Faria.2646':1.0E-6,'Eugenia.azuruensis_Faria.2642':1.0E-6)[&label=78]:0.004145)[&label=65]:0.004157)[&label=62]:1.0E-6,('Eugenia.dysenterica_Mazine.466':0.004577,'Eugenia.arenosa_Mazine.1043':0.032852)[&label=35]:1.0E-6)[&label=38]:1.0E-6,('Eugenia.patrisii_Holst.9514':1.0E-6,('Eugenia.patrisii_Vasconcelos.327':0.004616,'Eugenia.patrisii_Staggemeier.834':1.0E-6)[&label=66]:1.0E-6)[&label=82]:0.008171)[&label=70]:0.0173)[&label=0]:0.016539,('Eugenia.pluriflora_Mazine.961':0.021816,'Eugenia.bacopari_Mazine.967':1.0E-6)[&label=8]:1.0E-6)[&label=0]:0.011947,('Eugenia.percincta_Simon.1158':0.018912,'Calyptrogenia.grandiflora_Vasconcelos.588':0.010933)[&label=14]:0.001965)[&label=0]:0.011448)[&label=0]:0.00895)[&label=0]:0.017638)[&label=0]:0.010029,((('Eugenia.zeyheri_Maurin.1800':1.0E-6,'Eugenia.umtamvunensis_Maurin.1794':1.0E-6)[&label=6]:1.0E-6,(('Eugenia.zuluensis_Abbott.9188':1.0E-6,'Eugenia.woodii_Maurin.MvdB26':1.0E-6)[&label=10]:1.0E-6,'Eugenia.natalitia_Maurin.1796':1.0E-6)[&label=3]:1.0E-6)[&label=7]:1.0E-6,'Eugenia.erythrophylla_Maurin.1801':1.0E-6)[&label=62]:0.008939)[&label=0]:0.010405)[&label=0]:0.012223)[&label=0]:0.003193)[&label=0]:0.003313,(('Algrizea.minor_Faria.4157':0.016007,('Plinia.clausa_Stadnik.601':0.029125,'Plinia.longiacuminata_Borges.314':0.029884)[&label=59]:0.004935)[&label=7]:0.004211,('Algrizea.macrochlamys_Giulietti.1648':1.0E-6,('Plinia.espinhacensis_Faria.6379':0.006263,('Plinia.complanata_Matsumoto.831':0.009869,((('Siphoneugena.reitzii_Staggemeier.1000':0.085042,'Siphoneugena.densiflora_Faria.4152':1.0E-6)[&label=58]:0.008407,('Plinia.cordifolia_Mazine.957':0.01365,'Siphoneugena.guilfoyleiana_Lucas.70':1.0E-6)[&label=51]:1.0E-6)[&label=23]:1.0E-6,('Neomitranthes.glomerata_LabFenoSn3.G2.46397':1.0E-6,'Siphoneugena.densiflora_Mazine.1050':0.009281)[&label=30]:0.001466)[&label=38]:0.018533)[&label=7]:1.0E-6)[&label=20]:0.003786)[&label=3]:1.0E-6)[&label=5]:0.004159)[&label=0]:1.0E-6,((((('Myrcia.multipunctata_Matsumoto.752':0.029456,(('Myrcia.cerqueiria_Amorim.2028':0.012581,('Myrcia.ferruginosa_Santos.689':1.0E-6,(('Myrcia.sp_Faria.972':1.0E-6,'Myrcia.flagellaris_Lucas.83':0.008954)[&label=39]:1.0E-6,('Myrcia.palustris_Brotto.1546':1.0E-6,('Myrcia.barituensis_Serrano.5327':1.0E-6,('Myrcia.tijucensis_Zappi.305':1.0E-6,('Myrcia.grandifolia_Faria.2073':0.006267,('Myrcia.eriocalyx_Faria.1446':1.0E-6,('Myrcia.ilheosensis_Amorim.2037':1.0E-6,(('Myrcia.brasiliensis_Lucas.62':1.0E-6,(((('Myrcia.reticulata_Santos.803':1.0E-6,(('Myrcia.rosangelae_Amorim.1499':0.014799,'Myrcia.anacardiifolia_Nadruz.999':1.0E-6)[&label=62]:0.006163,'Myrcia.hebepetala_Lucas.64':1.0E-6)[&label=22]:1.0E-6)[&label=5]:1.0E-6,'Myrcia.subsericea_Santos.797':1.0E-6)[&label=7]:1.0E-6,'Myrcia.fenzliana_Vasconcelos.592':1.0E-6)[&label=0]:1.0E-6,'Myrcia.montana_Lucas.261':1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6,'Myrcia.pubescens_IBGE.Sn':1.0E-6)[&label=0]:1.0E-6)[&label=1]:1.0E-6)[&label=5]:1.0E-6)[&label=15]:1.0E-6)[&label=20]:1.0E-6)[&label=14]:1.0E-6)[&label=58]:0.008634)[&label=30]:0.011147)[&label=5]:2.1E-5)[&label=9]:0.001155,'Myrcia.eugeniopsoides_Lucas.61':1.0E-6)[&label=5]:5.7E-5)[&label=2]:1.0E-6,'Myrcia.pendulla_Lucas.1206':0.01157)[&label=4]:0.003665,(((('Myrcia.crocea_Amorim.1942':1.0E-6,('Myrcia.springiana_Amorim.1985':0.006529,'Myrcia.carvalhoi_Amorim.2026':1.0E-6)[&label=62]:1.0E-6)[&label=43]:1.0E-6,'Myrcia.spectabilis_Lucas.75':0.005258)[&label=1]:1.0E-6,'Myrcia.serrana_Amorim.2013':1.0E-6)[&label=58]:0.005256,('Myrcia.tomentosa_SoaresSilva.752':1.0E-6,'Myrcia.selloi_Lucas.110':0.015997)[&label=97]:0.020568)[&label=13]:1.0E-6)[&label=14]:1.0E-6,'Myrcia.guianensis_Harley.50707':1.0E-6)[&label=6]:1.0E-6,('Myrcia.guianensis_Staggemeier.845':1.0E-6,'Myrcia.citrifolia_Pollard.1193':0.003634)[&label=86]:0.007215)[&label=40]:0.00366)[&label=0]:1.0E-6,'Mitranthes.glabra_Lucas.1224':0.017422)[&label=0]:0.00542)[&label=0]:1.0E-6)[&label=0]:1.0E-6,(('Myrcia.aff.maximiliana_Santos.750':1.0E-6,'Myrcia.pulvinata_Amorim.1901':1.0E-6)[&label=8]:1.0E-6,'Myrcia.aff.unana_Amorim.2024':1.0E-6)[&label=85]:0.015453)[&label=0]:1.0E-6,((('Myrcia.sp_Lima.406':0.003705,((('Myrcia.blanchetiana_Lima.436':1.0E-6,'Myrcia.sp_Vasconcelos.440':0.005544)[&label=57]:0.003727,(('Myrcia.ramuliflora_Lima.412':1.0E-6,('Myrcia.myrtilliflolia_Lima.501':0.003896,('Myrcia.multiflora_Staggemeier.422':1.0E-6,'Myrcia.polyantha_Staggemeier.797':1.0E-6)[&label=60]:1.0E-6)[&label=33]:1.0E-6)[&label=25]:1.0E-6,('Myrcia.myrtilliflolia_Lima.381':0.003644,'Myrcia.pinifolia_Vasconcelos.505':1.0E-6)[&label=45]:1.0E-6)[&label=54]:0.003858)[&label=4]:1.0E-6,'Myrcia.litoralis_Lima.510':1.0E-6)[&label=3]:1.0E-6)[&label=9]:1.0E-6,'Myrcia.racemosa_Staggemeier.751':1.0E-6)[&label=7]:0.007841,('Myrcia.rupta_Vasconcelos.311':0.029848,'Myrcia.umbraticola_Souza.Sn.43175':0.005322)[&label=93]:0.027116)[&label=4]:0.007671)[&label=0]:0.006089)[&label=0]:0.048819,(('Myrciaria.glazioviana_CoelhoJ.288':0.053393,((('Myrciaria.vexator_Vasconcelos.709':1.0E-6,'Myrciaria.sp_34855':0.005014)[&label=37]:1.0E-6,'Myrciaria.cuspidata_Vasconcelos.495':0.010668)[&label=36]:0.007425,('Myrciaria.floribunda_Vasconcelos.380':0.049041,'Myrciaria.glomerata_Vasconcelos.413':0.010485)[&label=52]:0.010536)[&label=81]:0.020251)[&label=82]:0.017565,('Pimenta.pseudocaryophyllus_Lucas.161':0.01509,'Pimenta.yumana_Vasconcelos.584':0.053545)[&label=55]:0.018036)[&label=10]:0.004513)[&label=0]:0.027548,(('Myrcia.racemosa_Lucas.63':0.005471,'Myrcia.decorticans_Brazil_SE_Staggemeier.799':0.010561)[&label=20]:1.0E-6,'Myrcia.spathulifolia_Faria.4214':1.0E-6)[&label=14]:0.029329)[&label=0]:0.005659)[&label=0]:1.0E-6)[&label=0]:1.0E-6,((('Calyptranthes.pulchella_Zappi.2496':0.008711,'Calyptranthes.restingae_Lucas.990':0.010375)[&label=73]:0.004475,('Calyptranthes.lanceolata_Lucas.84':0.004701,('Calyptranthes.concinna_Lucas.74':1.0E-6,'Calyptranthes.grandifolia_Lucas.122':1.0E-6)[&label=86]:1.0E-6)[&label=69]:0.004574)[&label=64]:0.004363,'Calyptranthes.brasiliensis_Lucas.930':0.007756)[&label=41]:0.00387)[&label=0]:0.006924,('Pimenta.berciliae_Vasconcelos.576':0.013108,('Blepharocalyx.salicifolius_Lucas.78':1.0E-6,'Blepharocalyx.eggersii_Vasconcelos.458':0.020926)[&label=57]:0.008395)[&label=46]:0.025271)[&label=0]:1.0E-6,'Myrtastrum.rufopunctatum_Soewarto.10':0.026748)[&label=0]:1.0E-6,('Rhodamnia.cinerea_Vasconcelos.672':0.0493,(('Gossia.clusioides_Soewarto.14':0.059034,'Rhodomyrtus.tomentosa_Vasconcelos.678':0.064124)[&label=17]:1.0E-6,'Archirhodomyrtus.turbinata_Soewarto.11':0.035074)[&label=22]:1.0E-6)[&label=67]:0.015288)[&label=0]:1.0E-6,(('Myrcianthes.fragrans_Hamilton.552':1.0E-6,'Myrcianthes.pungens_Faria.2759':0.005797)[&label=95]:0.011629,(('Eugenia.vaughanii_Page.69':0.011954,((('Calycorectes.bergii_Giaretta.1587':0.009197,'Eugenia.neograndifolia_Holst.9435':1.0E-6)[&label=6]:0.003665,(((((('Eugenia.pisonis_Giaretta.1419':0.00471,'Eugenia.fasciculiflora_Simon.2032':0.008947)[&label=18]:1.0E-6,('Eugenia.feijoi_Simon.971':0.004847,'Eugenia.abunan_PereiraSilva.16487':1.0E-6)[&label=67]:0.008564)[&label=53]:0.004454,('Eugenia.caloneura_Lucas.1160':1.0E-6,('Eugenia.costata_Giaretta.1514':1.0E-6,(('Eugenia.inversa_Faria.4230':0.004562,(('Eugenia.zuccarinii_Brandao.159':1.0E-6,'Eugenia.neoriedeliana_Giaretta.1489':0.005421)[&label=52]:0.004494,('Eugenia.subterminalis_Mazine.974':0.004562,(('Eugenia.longohypanthiata_Giaretta.1500':1.0E-6,(('Eugenia.brevistyla_Giaretta.1493':1.0E-6,'Eugenia.vattimoana_Giaretta.1465':0.002722)[&label=14]:0.002348,('Eugenia.guanabarina_Giaretta.1629':1.0E-6,'Eugenia.acutata_Vasconcelos.506':0.009756)[&label=24]:0.013826)[&label=10]:1.0E-6)[&label=10]:1.0E-6,'Eugenia.brevistyla_Mazine.993':1.0E-6)[&label=3]:1.0E-6)[&label=4]:1.0E-6)[&label=21]:0.003886)[&label=16]:0.002734,(('Eugenia.patens_Lucas.104':0.018078,'Eugenia.florida_Mazine.965':1.0E-6)[&label=20]:1.0E-6,'Eugenia.biflora_Mazine.1075':0.004502)[&label=32]:0.030197)[&label=3]:0.015328)[&label=0]:1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6,(('Eugenia.glandulosa_Faria.37':1.0E-6,'Eugenia.petaloidea_Amorim.1765':0.170186)[&label=90]:0.073897,((('Eugenia.involucrata_Vasconcelos.256':0.023185,(('Eugenia.involucrata_Bunger.551':0.009005,'Eugenia.macrobracteolata_Faria.3050':0.00449)[&label=31]:1.0E-6,('Eugenia.involucrata_Mazine.1018':1.0E-6,'Eugenia.luschnathiana_Faria.3140':1.0E-6)[&label=31]:1.0E-6)[&label=60]:1.0E-6)[&label=18]:0.001593,'Eugenia.magnisepala_Moraes.600':0.022175)[&label=14]:0.002237,((('Eugenia.magnibracteolata_Bunger.627':1.0E-6,('Eugenia.expansa_Bunger.634':1.0E-6,('Eugenia.expansa_Mazine.950':1.0E-6,'Eugenia.puberula_Bunger.629':1.0E-6)[&label=64]:1.0E-6)[&label=68]:1.0E-6)[&label=58]:1.0E-6,('Eugenia.selloi_Bunger.566':1.0E-6,'Eugenia.ruschiana_Bunger.618':1.0E-6)[&label=19]:1.0E-6)[&label=39]:1.0E-6,'Eugenia.regia_Bunger.578':0.004546)[&label=85]:0.008958)[&label=11]:1.0E-6)[&label=6]:0.003823)[&label=0]:0.007792,('Eugenia.punicifolia_Mazine.1065':0.00465,(('Eugenia.cerasiflora_Vasconcelos.419':0.009265,'Eugenia.rotula_Faria.4190':0.013632)[&label=92]:0.009356,'Eugenia.lagoensis_Fraga.2436':0.008612)[&label=66]:0.008638)[&label=97]:0.030862)[&label=0]:1.0E-6,'Calyptrogenia.cuspidata_Vasconcelos.593':1.0E-6)[&label=0]:1.0E-6)[&label=0]:1.0E-6,'Hottea.neibensis_Vasconcelos.590':0.031283)[&label=0]:0.007478)[&label=0]:1.0E-6,'Eugenia.roseopetiolata_Vasconcelos.Sn':0.061777)[&label=0]:0.013115)[&label=0]:0.01958)[&label=39]:0.018487,'Metrosideros.perforata_Lucas.209':0.168119):0.043881,'Eucalyptus.perriniana_Lucas.283':0.043881);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

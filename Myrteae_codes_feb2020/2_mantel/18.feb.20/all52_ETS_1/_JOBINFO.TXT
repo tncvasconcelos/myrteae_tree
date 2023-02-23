@@ -1,0 +1,14 @@
+Task\ label=all52_ETS_1
+Task\ ID=2082782
+Tool=RAXMLHPC2_TGB
+created\ on=2020-02-14 14:09:00.0
+JobHandle=NGBW-JOB-RAXMLHPC2_TGB-E599C4EBF73642158B60AC1CC6C7FEDB
+RunNumber=1
+resource=comet
+User\ ID=123447
+User\ Name=thvasc
+email=t.vasconcelos@usp.br
+Output=(all_outputfiles,*,UNKNOWN,UNKNOWN,UNKNOWN)
+ChargeFactor=1.000000
+cores=48
+JOBID=31547238

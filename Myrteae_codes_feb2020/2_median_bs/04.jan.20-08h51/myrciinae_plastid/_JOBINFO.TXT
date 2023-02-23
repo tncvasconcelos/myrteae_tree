@@ -1,0 +1,14 @@
+Task\ label=myrciinae_plastid
+Task\ ID=2046922
+Tool=RAXMLHPC2_TGB
+created\ on=2020-01-04 09:36:34.0
+JobHandle=NGBW-JOB-RAXMLHPC2_TGB-2D2C02E6673C4472869838C379E1CA5C
+RunNumber=1
+resource=comet
+User\ ID=123447
+User\ Name=thvasc
+email=t.vasconcelos@usp.br
+Output=(all_outputfiles,*,UNKNOWN,UNKNOWN,UNKNOWN)
+ChargeFactor=1.000000
+cores=24
+JOBID=30671396
