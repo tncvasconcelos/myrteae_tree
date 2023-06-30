@@ -1,5 +1,0 @@
-1578153642 Sat Jan  4 08:00:42 PST 2020
-Sat Jan  4 08:00:42 2020
-             JOBID PARTITION     NAME     USER    STATE       TIME TIME_LIMI  NODES NODELIST(REASON)
-          30669135   compute NGBW-JOB   cipres  RUNNING      46:00   2:00:00      1 comet-13-35
-This file created by srun of: ./_batch_command.cmdline

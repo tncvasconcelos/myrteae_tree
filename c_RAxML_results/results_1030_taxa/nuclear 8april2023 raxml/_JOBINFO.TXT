@@ -1,0 +1,14 @@
+Task\ label=nuclear 8april2023 raxml
+Task\ ID=2895871
+Tool=RAXMLHPC2_TGB
+created\ on=2023-04-09 12:35:25.0
+JobHandle=NGBW-JOB-RAXMLHPC2_TGB-5E6E80EB38CE417D8E5A5AD4F3EFFAD1
+RunNumber=1
+resource=expanse
+User\ ID=64940
+User\ Name=v.staggemeier
+email=v.staggemeier@gmail.com
+Output=(all_outputfiles,*,UNKNOWN,UNKNOWN,UNKNOWN)
+ChargeFactor=1.000000
+cores=40
+JOBID=21574104

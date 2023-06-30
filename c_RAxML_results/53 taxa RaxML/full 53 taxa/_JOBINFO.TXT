@@ -1,0 +1,14 @@
+Task\ label=full 53 taxa
+Task\ ID=2895906
+Tool=RAXMLHPC2_TGB
+created\ on=2023-04-09 15:58:53.0
+JobHandle=NGBW-JOB-RAXMLHPC2_TGB-5F747A206E8E4325990644057BD0EC64
+RunNumber=1
+resource=expanse
+User\ ID=64940
+User\ Name=v.staggemeier
+email=v.staggemeier@gmail.com
+Output=(all_outputfiles,*,UNKNOWN,UNKNOWN,UNKNOWN)
+ChargeFactor=1.000000
+cores=40
+JOBID=21575443

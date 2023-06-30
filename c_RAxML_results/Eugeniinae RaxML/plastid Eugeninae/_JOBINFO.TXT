@@ -1,0 +1,14 @@
+Task\ label=plastid Eugeninae
+Task\ ID=2895949
+Tool=RAXMLHPC2_TGB
+created\ on=2023-04-09 17:33:38.0
+JobHandle=NGBW-JOB-RAXMLHPC2_TGB-03EAC4B422E4476DBC74B9DD9F6D425F
+RunNumber=1
+resource=expanse
+User\ ID=64940
+User\ Name=v.staggemeier
+email=v.staggemeier@gmail.com
+Output=(all_outputfiles,*,UNKNOWN,UNKNOWN,UNKNOWN)
+ChargeFactor=1.000000
+cores=40
+JOBID=21576855

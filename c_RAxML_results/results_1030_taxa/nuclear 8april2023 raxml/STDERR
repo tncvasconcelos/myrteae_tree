@@ -1,0 +1,3 @@
+taskset: failed to set pid 271893's affinity: No such process
+taskset: failed to set pid 271894's affinity: No such process
+taskset: failed to set pid 271895's affinity: No such process

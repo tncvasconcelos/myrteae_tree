@@ -1,0 +1,14 @@
+Task\ label=conca final cortado 8april2023 raxml_1
+Task\ ID=2895870
+Tool=RAXMLHPC2_TGB
+created\ on=2023-04-09 12:22:27.0
+JobHandle=NGBW-JOB-RAXMLHPC2_TGB-F7D18C1195F24613A2FD89EE7E79BAC0
+RunNumber=1
+resource=expanse
+User\ ID=64940
+User\ Name=v.staggemeier
+email=v.staggemeier@gmail.com
+Output=(all_outputfiles,*,UNKNOWN,UNKNOWN,UNKNOWN)
+ChargeFactor=1.000000
+cores=40
+JOBID=21574082

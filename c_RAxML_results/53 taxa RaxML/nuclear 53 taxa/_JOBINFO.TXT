@@ -1,0 +1,14 @@
+Task\ label=nuclear 53 taxa
+Task\ ID=2895908
+Tool=RAXMLHPC2_TGB
+created\ on=2023-04-09 16:02:57.0
+JobHandle=NGBW-JOB-RAXMLHPC2_TGB-B7EF266AEA0B48628FEF440F34372831
+RunNumber=1
+resource=expanse
+User\ ID=64940
+User\ Name=v.staggemeier
+email=v.staggemeier@gmail.com
+Output=(all_outputfiles,*,UNKNOWN,UNKNOWN,UNKNOWN)
+ChargeFactor=1.000000
+cores=40
+JOBID=21575462

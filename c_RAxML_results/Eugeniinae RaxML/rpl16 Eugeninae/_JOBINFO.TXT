@@ -1,0 +1,14 @@
+Task\ label=rpl16 Eugeninae
+Task\ ID=2895947
+Tool=RAXMLHPC2_TGB
+created\ on=2023-04-09 17:31:35.0
+JobHandle=NGBW-JOB-RAXMLHPC2_TGB-B38DAAA6A673434D8CC62660727965D7
+RunNumber=1
+resource=expanse
+User\ ID=64940
+User\ Name=v.staggemeier
+email=v.staggemeier@gmail.com
+Output=(all_outputfiles,*,UNKNOWN,UNKNOWN,UNKNOWN)
+ChargeFactor=1.000000
+cores=40
+JOBID=21576843

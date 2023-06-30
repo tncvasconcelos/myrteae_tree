@@ -1,0 +1,14 @@
+Task\ label=matk 53 taxa
+Task\ ID=2895910
+Tool=RAXMLHPC2_TGB
+created\ on=2023-04-09 16:04:46.0
+JobHandle=NGBW-JOB-RAXMLHPC2_TGB-0A45000CB23D4E1F945E657914842ED8
+RunNumber=1
+resource=expanse
+User\ ID=64940
+User\ Name=v.staggemeier
+email=v.staggemeier@gmail.com
+Output=(all_outputfiles,*,UNKNOWN,UNKNOWN,UNKNOWN)
+ChargeFactor=1.000000
+cores=40
+JOBID=21575481

@@ -40,4 +40,5 @@ vignettes/*.pdf
 Myrteae_codes_feb2020/raxml_FINALANALYSES/
 Myrteae_codes_feb2020/2_treespace/
 .DS_Store
-Old/
+old/
+beast/
