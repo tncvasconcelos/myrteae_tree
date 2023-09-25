@@ -96,19 +96,22 @@ for(u in 1:length(result_mantel)){
 }
 names(results_final_myr) <- labels
 
+results_final_all53 <- as.data.frame(results_final_all53)
+results_final_eug <- as.data.frame(results_final_eug)
+results_final_myr <- as.data.frame(results_final_myr)
+colnames(results_final_all53) <- colnames(results_final_eug) <- colnames(results_final_myr) <- "mantel"
+write.csv(rbind(results_final_all53, results_final_eug, results_final_myr), file="all_mantel_results.csv")
+
 #####################################
 ## Boxplot with bootstrap values ####
 # shows which trees have higher resolution #
 
 # Defining color code #
-markers <- c("trnlF","rpl16","psba",
-             "matK","ndhf","rpl32",
-             "ITS","ETS","trnq",
-             "nuclear","plastid","full")
+#markers <- c("trnlF","rpl16","psba",
+             # "matK","ndhf","rpl32",
+             # "ITS","ETS","trnq",
+             # "nuclear","plastid","full")
 
-palettes_hcl <- hcl.pals()
-colors <- hcl.colors(length(markers), palette = "Viridis", alpha = 0.75)
-names(colors) <- markers
 
 #----------------------------
 #### ALL 53 ####
@@ -129,7 +132,22 @@ for(i in 1:length(bs_all)){
 mns <- colMedians(as.matrix(results_median_all53))
 results_median_all53 <- results_median_all53[,order(mns)]
 names(results_median_all53) <- gsub(paste0(c("2_Mantel_bs/","_all53_bs.txt"), collapse="|"), "", names(results_median_all53))
-boxplot(results_median_all53, col= colors, las=1)
+
+#boxplot(results_median_all53, col= colors, las=1)
+
+results_median_all53 <- reshape2::melt(results_median_all53)
+colors <- hcl.colors(length(unique(results_median_all53$variable)), palette = "Viridis", alpha = 0.75)
+
+all_53_bs_boxplot <- ggplot(results_median_all53, aes(x = variable, y = value, fill = variable)) +
+  geom_boxplot(show.legend = FALSE) +
+  scale_fill_manual(values=colors) +
+  theme_classic() +
+  coord_flip() +
+  theme(plot.title=element_text(size=10))
+
+pdf("plots/bootstrap_comparison_all53.pdf", width=6, height=6)
+all_53_bs_boxplot
+dev.off()
 
 #### EUGENIINAE ####
 bs <- list.files(path="2_Mantel_bs", pattern="_Eugeninae_bs.txt", full.names = T)
@@ -147,7 +165,22 @@ for(i in 1:length(bs_all)){
 mns <- colMedians(as.matrix(results_median_eug))
 results_median_eug <- results_median_eug[,order(mns)]
 names(results_median_eug) <- gsub(paste0(c("2_Mantel_bs/","_Eugeninae_bs.txt"), collapse="|"), "", names(results_median_eug))
-boxplot(results_median_eug, col= colors[which(names(colors) %in% names(results_median_eug))], las=1)
+#boxplot(results_median_eug, col= colors[which(names(colors) %in% names(results_median_eug))], las=1)
+
+results_median_eug <- reshape2::melt(results_median_eug)
+colors <- hcl.colors(length(unique(results_median_eug$variable)), palette = "Viridis", alpha = 0.75)
+
+eug_bs_boxplot <- ggplot(results_median_eug, aes(x = variable, y = value, fill = variable)) +
+  geom_boxplot(show.legend = FALSE) +
+  scale_fill_manual(values=colors) +
+  theme_classic() +
+  coord_flip() +
+  theme(plot.title=element_text(size=10))
+
+pdf("plots/bootstrap_comparison_eug.pdf", width=6, height=6)
+eug_bs_boxplot
+dev.off()
+
 
 #### MYRCIINAE ####
 bs <- list.files(path="2_Mantel_bs", pattern="_Myrciinae_bs.txt", full.names = T)
@@ -165,7 +198,19 @@ for(i in 1:length(bs_all)){
 mns <- colMedians(as.matrix(results_median_myr))
 results_median_myr <- results_median_myr[,order(mns)]
 names(results_median_myr) <- gsub(paste0(c("2_Mantel_bs/","_Myrciinae_bs.txt"), collapse="|"),"", names(results_median_myr))
-boxplot(results_median_myr, col= colors[which(names(colors) %in% names(results_median_myr))], las=1)
+#boxplot(results_median_myr, col= colors[which(names(colors) %in% names(results_median_myr))], las=1)
 
+results_median_myr <- reshape2::melt(results_median_myr)
+colors <- hcl.colors(length(unique(results_median_myr$variable)), palette = "Viridis", alpha = 0.75)
 
+myr_bs_boxplot <- ggplot(results_median_myr, aes(x = variable, y = value, fill = variable)) +
+  geom_boxplot(show.legend = FALSE) +
+  scale_fill_manual(values=colors) +
+  theme_classic() +
+  coord_flip() +
+  theme(plot.title=element_text(size=10))
+
+pdf("plots/bootstrap_comparison_myr.pdf", width=6, height=6)
+myr_bs_boxplot
+dev.off()
 

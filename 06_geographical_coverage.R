@@ -49,7 +49,7 @@ names_sample <- read.table("WCVP/wcvp_names.txt", sep="|", header=TRUE, quote = 
 all_vars <- merge(dist_sample, names_sample, by="plant_name_id")
 reference_table <- readRDS("myrteae_species_WCVP_GBIF.Rdata")
 myrteae_genera <- read.csv("neotropical_myrteae_genera_WCVP.csv")
-tree <- read.tree("mmc_target_common_June27_pruned_no_out.tre")
+tree <- read.tree("trees_final/mmc_target_common_June27_pruned_no_out.tre")
 
 all_vars <- subset(all_vars, all_vars$family %in% "Myrtaceae")
 all_vars <- subset(all_vars, all_vars$taxon_status %in% "Accepted")
@@ -111,8 +111,9 @@ twgd_data_americas <- subset(twgd_data01, twgd_data01$LEVEL1_COD%in%c(7,8))
 
 tmp_map1 <- ggplot(data = twgd_data_americas) +
   geom_sf(aes(fill = sp_rich_prop)) +
-  scale_fill_viridis_c(option = "viridis", alpha=0.8, direction=-1) +
+  scale_fill_viridis_c(option = "G", alpha=0.8, direction=-1) +
   theme_classic() 
+
 
 tmp_map2 <- ggplot(data = twgd_data_americas) +
   geom_sf(aes(fill = sp_rich_total)) +
